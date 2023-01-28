@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        body{
+           background-image: url("S.jpg");
+           background-size: 1500px 1000px;
+           /* backface-visibility: visible; */
+        
+        }
+        .container{
+                                                
+        }
+        
+        
+        #btn{
+            border: 2px solid red;
+            padding: 100px;
+            border-radius: 23px;
+            display: flex;
+            margin: 112px 213px;
+             background-image: url("punjabi.png"); 
+            background-repeat: no-repeat;
+             background-position: center;  
+            /* background-attachment: fixed;
+             */
+            box-shadow: 12px 14px gray;
+            /* background-color: aqua; */
+
+            /* height: 13px; */
+            /* width: 90px; */
+            /* height: 90px; */
+           
+
+        }
+        #btn:hover{
+            animation-name: ayush;
+    animation: alternate;
+    animation-duration: 0.5s;
+    animation-timing-function: 6s;
+    animation-iteration-count: 4;
+    animation: ayush 0.5s ease-in 1s 10 ;
+    transform: rotate(10deg);
+    
+    
+
+  }
+  @keyframes ayush {
+    from{
+        width: 200px;
+    }
+    to{
+        width: 300px;
+    }
+    
+  }
+        
+        #b2{
+            
+            border: 2px solid red;
+            padding: 100px;
+            border-radius: 23px;
+            display: flex;
+            box-shadow: 12px 14px gray;
+            margin: 215px;
+            background-image: url("Eng.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            /* margin-top: 120px; */
+            background-size: 220px 220px;
+            background-position: center;
+            
+            /* text-align: center;
+            justify-items: center; */
+            justify-content: center;
+        }
+        #b2:hover{
+            animation-name: ayush;
+    animation:alternate;
+    animation-duration: 0.5s;
+    animation-timing-function: 6s;
+    animation-iteration-count: 4;
+    animation: ayush 0.5s ease-in 1s 10 backwards ;
+    transform: rotate(10deg);
+    /* touch-action: cross-slide-x; */
+    /* text-shadow: 12px 12px gray; */
+    
+    
+
+  }
+  @keyframes ayush {
+    from{
+        width: 200px;
+    }
+    to{
+        width: 300px;
+    }
+    
+  }
+       
+        #b3{
+            
+            border: 2px solid red;
+            padding: 100px;
+            border-radius: 23px;
+            display: block;
+            box-shadow: 12px 14px gray;
+            margin: -420px auto;
+            background-image: url("marathi.png");
+            background-position: center;
+            align-items: center;
+            /* width: 233px; */
+        }
+        #b3:hover{
+            animation-name: ayush;
+    animation: alternate;
+    animation-duration: 0.5s;
+    animation-timing-function: 6s;
+    animation-iteration-count: 4;
+    animation: ayush 0.5s ease-in 1s 10 ;
+    transform: rotate(10deg);
+
+    
+    
+
+  }
+  @keyframes ayush {
+    from{
+        width: 250px;
+    }
+    to{
+        width: 300px;
+    }
+    
+  }
+        
+        #b4{
+            
+            border: 2px solid red;
+            padding: 100px;
+            border-radius: 23px;
+            display: block;
+            margin: -621px auto;
+            box-shadow: 12px 14px gray;
+            /* background-image: url("button.jpg"); */
+            background-image: url("hindi.jpg"); 
+            background-repeat: no-repeat;
+             background-position: center;  
+            /* width: 233px; */
+        }
+        #b4:hover{
+            animation-name: ayush;
+    animation: alternate;
+    animation-duration: 0.5s;
+    animation-timing-function: 6s;
+    animation-iteration-count: 4;
+    animation: ayush 0.5s ease-in 1s 10 ;
+    transform: rotate(5deg);
+    
+    
+
+  }
+  @keyframes ayush {
+    from{
+        width: 200px;
+    }
+    to{
+        width: 300px;
+    }
+    
+  }
+         #b{
+            border: 2px solid rgb(0, 247, 255);
+                padding: 26px;
+                margin: 700px 550px;
+                border-radius: 23px;
+                background-color: rgb(218, 231, 217);
+                display: block;
+                box-shadow: 12px 13px gray;
+                font-size: larger;
+    
+        } 
+        #b:hover{
+            animation-name: yash;
+                animation: alternate;
+                animation-duration: 0.5s;
+                animation-timing-function: 6s;
+                animation-iteration-count: 4;
+                animation: yash 0.5s ease-in 1s 10 backwards;
+    
+    
+
+        }
+        @keyframes yash {
+            from{
+                width: 100px;
+            }
+            to{
+                width: 200px;
+            }
+            
+        } 
+         
+
+        
+
+    </style>
+</head>
+<body>
+    <script>
+
+    </script>
+    <div class="container">
+        <!-- <button id="btn">ABCD</button> -->
+    </div>
+     <button id="btn" onclick="display()"></button>
+     <button id="b2" onclick="Show()"></button>
+     <button id="b3" onclick="Shows()"></button>
+     <button id="b4" onclick="toshow()"></button>
+
+     <script>
+        function display()  {
+            window.location.href="sneha.html";
+        }
+        function Show()  {
+            window.location.href="english.js";
+        }
+        function Shows()  {
+             window.location.href="siddhi.html";
+    
+        }
+        function toshow()  {
+            window.location.href="yash.html";
+        }
+     </script>
+</body>
+</html>
